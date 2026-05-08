@@ -1,4 +1,4 @@
-/*package com.projebot.promo_bot;
+package com.projebot.promobot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +10,7 @@ public class PromoBotApplication {
 		SpringApplication.run(PromoBotApplication.class, args);
 	}
 
-}*/
+}
 
 // -------- CÓDIGO PARA FORÇAR O SPRING IGNORAR O BANCO DE DADOS -----------
 /*import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -23,10 +23,13 @@ public class PromoBotApplication {
         SpringApplication.run(PromobotApplication.class, args);
     }
 }*/
+
+
+/*
 package com.projebot.promobot;
 
 import org.springframework.boot.SpringApplication;
-//*import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 public class PromoBotApplication {
 
@@ -34,3 +37,4 @@ public class PromoBotApplication {
         SpringApplication.run(PromoBotApplication.class, args);
     }
 }
+*/
