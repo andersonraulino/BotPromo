@@ -1,3 +1,4 @@
+
 package com.projebot.promobot;
 
 import org.springframework.boot.SpringApplication;
@@ -12,19 +13,6 @@ public class PromoBotApplication {
 
 }
 
-// -------- CÓDIGO PARA FORÇAR O SPRING IGNORAR O BANCO DE DADOS -----------
-/*import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-public class PromoBotApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(PromobotApplication.class, args);
-    }
-}*/
-
-
 /*
 package com.projebot.promobot;
 
@@ -37,4 +25,5 @@ public class PromoBotApplication {
         SpringApplication.run(PromoBotApplication.class, args);
     }
 }
+
 */
